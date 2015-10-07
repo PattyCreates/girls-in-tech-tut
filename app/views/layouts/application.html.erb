@@ -8,11 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class="container main-navigation">
-		<%= link_to "home", root_path, class: "main-nav-link" %>
-		<%= link_to "about", about_path, class: "main-nav-link"   %>
-		<%= link_to "contact", contact_path, class: "main-nav-link"  %>
-	</div>
+	<%= render 'layouts/nav' %>
 	<div class="container">
 		<%= yield %>
 	</div>

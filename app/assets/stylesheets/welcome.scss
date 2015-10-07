@@ -1,17 +1,9 @@
-.main-navigation {
-	padding: 20px;
-	text-align: center;
-}
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-a.main-nav-link {
-	padding: 10px;
-}
-
-h1.center,
-h2.center,
-h3.center,
-h4.center,
-h5.center,
-p.center {
-	text-align: center;
-}
+$body-bg:                          #ECECEA;
+$font-family-sans-serif:           'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                    45px;
+$navbar-default-bg:                white;
+$navbar-default-brand-color:       #558C89;
+$brand-primary:                    #558C89;
+$jumbotron-bg:                     white;
