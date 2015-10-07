@@ -1,3 +1,17 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-navigation {
+	padding: 20px;
+	text-align: center;
+}
+
+a.main-nav-link {
+	padding: 10px;
+}
+
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+p.center {
+	text-align: center;
+}
